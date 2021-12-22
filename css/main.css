@@ -5,3 +5,23 @@
   .right {
       text-align: right;
   }
+
+  #subheader__list li#circle {
+    list-style-type: circle;
+  }
+
+  #subheader__list li#square {
+    list-style-type: square;
+  }
+
+  #subheader__list li#disc {
+    list-style-type: disc;
+  }
+
+ #footer {
+    border: 4px double #000000; 
+    outline: 1px solid #000000; 
+    border-radius: 16px; 
+    width: 44%;
+    padding-left: 12px;
+ }
