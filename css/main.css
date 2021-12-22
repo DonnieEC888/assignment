@@ -1,8 +1,15 @@
+
+#subheader__table {
+    width: 37%; 
+    margin-left: 52px; 
+    border: 3px solid #cccccc;
+}
+
 #subheader__table tr:nth-child(even) {
     background-color: #e2ebe6;
   }
 
-  .right {
+#subheader__table .right {
       text-align: right;
   }
 
