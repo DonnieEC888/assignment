@@ -1,34 +1,108 @@
+#header-paragraph {
+  padding-left: 46px;
+}
 
 #subheader__table {
-    width: 37%; 
-    margin-left: 52px; 
-    border: 3px solid #cccccc;
+  width: 37%;
+  margin-left: 52px;
+  border: 3px solid #cccccc;
 }
 
 #subheader__table tr:nth-child(even) {
-    background-color: #e2ebe6;
-  }
+  background-color: #e2ebe6;
+}
 
 #subheader__table .right {
-      text-align: right;
+  text-align: right;
+}
+
+#subheader__list li#subheader__list-circle {
+  list-style-type: circle;
+}
+
+#subheader__list li#subheader__list-square {
+  list-style-type: square;
+}
+
+#subheader__list li#subheader__list-disc {
+  list-style-type: disc;
+}
+
+#footer {
+  border: 4px double #000000;
+  outline: 1px solid #000000;
+  border-radius: 16px;
+  width: 44%;
+  text-align: center;
+  padding: 4px;
+}
+
+
+@media only screen and (max-width:1024px) {
+
+  #subheader__table {
+    width: 50%;
+  }
+  #header-paragraph {
+    padding-left: 50px;
+}
+  #footer {
+    width: 57%;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  #subheader__table {
+    width: 66%;
+  }
+  #footer {
+    width: 76%;
+  }
+}
+
+@media only screen and (max-width:425px) {
+  body {
+    font-size: 10px;
+  }
+  #header-paragraph {
+    padding-left: 30px;
+  }
+  #subheader__table {
+    width: 72%;
+  }
+  #footer {
+    width: 87%;
   }
 
-  #subheader__list li#circle {
-    list-style-type: circle;
+}
+
+@media only screen and (max-width:375px) {
+  body {
+    font-size: 8px;
+  }
+  #header-paragraph {
+    padding-left: 22px;
+  }
+  #subheader__table {
+    margin-left: 26px;
+  }
+  #footer {
+    width: 80%;
   }
 
-  #subheader__list li#square {
-    list-style-type: square;
+}
+
+@media only screen and (max-width:320px) {
+  body {
+    font-size: 8px;
+  }
+  #subheader__table {
+    width: 82%;
   }
 
-  #subheader__list li#disc {
-    list-style-type: disc;
+  #footer {
+    width: 94%;
   }
 
- #footer {
-    border: 4px double #000000; 
-    outline: 1px solid #000000; 
-    border-radius: 16px; 
-    width: 44%;
-    padding-left: 12px;
- }
+ 
+}
