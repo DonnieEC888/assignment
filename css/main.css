@@ -43,9 +43,11 @@
   #subheader__table {
     width: 50%;
   }
+
   #header-paragraph {
     padding-left: 50px;
-}
+  }
+
   #footer {
     width: 57%;
   }
@@ -55,6 +57,7 @@
   #subheader__table {
     width: 66%;
   }
+
   #footer {
     width: 76%;
   }
@@ -64,12 +67,15 @@
   body {
     font-size: 10px;
   }
+
   #header-paragraph {
     padding-left: 30px;
   }
+
   #subheader__table {
     width: 72%;
   }
+
   #footer {
     width: 87%;
   }
@@ -80,12 +86,15 @@
   body {
     font-size: 8px;
   }
+
   #header-paragraph {
     padding-left: 22px;
   }
+
   #subheader__table {
     margin-left: 26px;
   }
+
   #footer {
     width: 80%;
   }
@@ -96,6 +105,7 @@
   body {
     font-size: 8px;
   }
+
   #subheader__table {
     width: 82%;
   }
@@ -104,5 +114,5 @@
     width: 94%;
   }
 
- 
+
 }
